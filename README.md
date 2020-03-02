@@ -6,7 +6,7 @@ You can use the W and S keys to move forward and backwards respectivelly.
 
 The outcome looks like this.
 
-[![EXAMPLE]](example.gif)
+<img src="example.gif" alt="example"></a>
 
 ### Prerequisites
 
