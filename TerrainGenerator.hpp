@@ -70,7 +70,7 @@ private:
         glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
         glMatrixMode(GL_PROJECTION);
         gluPerspective(60, 1.f, .1, 50);
-        glTranslatef(0.f, 0.f, -1.f);
+        glTranslatef(0.f, 0.f, -.5f);
         glRotatef(120.f, 1.f, 0.f, 0.f);
 
         // define a y offset position
