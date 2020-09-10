@@ -126,12 +126,9 @@ private:
     }
 
 private:
-    static constexpr std::size_t                _scale{ 30 };
-    static constexpr std::size_t                _width{ 1920 };
-    static constexpr std::size_t                _height{ 1080 };
-    static constexpr std::pair<float, float>    _frequency{ _width / 10000.f, _height / 10000.f };
-    static constexpr std::uint32_t              _rows{ _height / _scale };
-    static constexpr std::uint32_t              _columns{ _width / _scale };
+    static constexpr std::uint32_t              _rows{ 100 };
+    static constexpr std::uint32_t              _columns{ 100 };
+    static constexpr std::pair<float, float>    _frequency{ _columns / 200.f, _rows / 200.f };
     inline static float                         _position{ 0.f };
     inline static const siv::PerlinNoise        _perlin{ static_cast<std::uint32_t>(std::time(nullptr)) };
 };
